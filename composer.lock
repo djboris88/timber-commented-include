@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c420076ee551c266f8839281d52bba6",
+    "content-hash": "23c344ae3ae4e8af7fa1904d2d290d35",
     "packages": [
         {
-            "name": "djboris88/twig-include-comments",
+            "name": "djboris88/twig-commented-include",
             "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/djboris88/twig-commented-include.git",
-                "reference": "707773536780a860f85c3b0be01966d1823285ff"
+                "reference": "424e0132e5416eadb3b02b7288b5a9d9df6b2475"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/djboris88/twig-commented-include/zipball/707773536780a860f85c3b0be01966d1823285ff",
-                "reference": "707773536780a860f85c3b0be01966d1823285ff",
+                "url": "https://api.github.com/repos/djboris88/twig-commented-include/zipball/424e0132e5416eadb3b02b7288b5a9d9df6b2475",
+                "reference": "424e0132e5416eadb3b02b7288b5a9d9df6b2475",
                 "shasum": ""
             },
             "require": {
@@ -38,6 +38,7 @@
                     "Djboris88\\Twig\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0"
             ],
@@ -56,11 +57,7 @@
                 "html",
                 "twig"
             ],
-            "support": {
-                "source": "https://github.com/djboris88/twig-commented-include/tree/1.1.0",
-                "issues": "https://github.com/djboris88/twig-commented-include/issues"
-            },
-            "time": "2018-12-03T15:51:44+00:00"
+            "time": "2018-12-03T16:17:27+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",

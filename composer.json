@@ -21,12 +21,6 @@
 	},
 	"require": {
 		"php": ">=5.6",
-		"djboris88/twig-include-comments": "^1.1.0"
-	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/djboris88/twig-include-comments"
-		}
-	]
+		"djboris88/twig-commented-include": "^1.1"
+	}
 }
