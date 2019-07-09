@@ -22,6 +22,15 @@ composer require djboris88/timber-commented-include --dev
 
 Usage
 -----
-To be able to see the commented output, `WP_DEBUG` has to be defined and set as 
-`true` in `wp-config.php` file. The Twig Extension will automatically be registered
-and applied.
+To be able to see the commented output, `WP_DEBUG` has to be defined and set as
+`true` in `wp-config.php` file.
+
+The Twig Extension will automatically be registered and applied. If the
+WordPress add_filter function is not available when that happens, it will fail.
+In that case, you will need to call initialization yourself at an appropriate
+time after WordPress itself is initialized:
+```php
+if (function_exists('\Djboris88\Timber\initialize_filters')) {
+  \Djboris88\Timber\initialize_filters();
+}
+```
