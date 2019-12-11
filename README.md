@@ -17,7 +17,7 @@ Installation
 ------------
 To install the latest stable version of this component, open a console and execute the following command:
 ```bash
-composer require djboris88/timber-commented-include --dev
+composer require djboris88/timber-commented-include
 ```
 
 Usage
