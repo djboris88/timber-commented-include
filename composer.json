@@ -21,6 +21,6 @@
 	},
 	"require": {
 		"php": ">=5.6",
-		"djboris88/twig-commented-include": "^1.2"
+		"djboris88/twig-commented-include": "^2.0"
 	}
 }
